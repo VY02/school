@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #608791; 
+    ;
+}
+
+form { /* dito student profile */
+    border: solid black;
+    padding: 20px;
+    background-color: lightyellow; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.Metric {
+    border: solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: lightyellow; 
+}
+
+.Imperial {
+    border: solid black;
+    padding: 20px;
+    width: 400px; 
+    margin-top: 199px; 
+    margin-left: -170px; 
+    background-color: lightyellow; 
+}
+
+.bmi-calculation {
+    position: absolute;
+    top: .5px;
+    left: 300px;
+}
+
+.bmi-calculation2 {
+    position: absolute;
+    top: .5px;
+    left: 450px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.Metric,
+.Imperial {
+    border: solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px; 
+}
